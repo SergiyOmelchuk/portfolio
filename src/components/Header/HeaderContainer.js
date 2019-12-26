@@ -11,11 +11,11 @@ class HeaderContainer extends React.Component {
     }
 }
 
-let mapStateToProps = (state) => {
+let mapStateToProps = () => {
     return {
 
     };
 };
 
-export default connect(mapStateToProps)(HeaderContainer);
+export default HeaderContainer;
 

@@ -1,10 +1,14 @@
 import React from "react";
-import s from "./Header.module.css"
+import s from "./Header.module.css";
+import logo from "../../assets/img/logo.png";
 
 const Header = (props) => {
     return (
         <div className={s.header}>
-            <img src="../../assets/img/logo.png" alt="" className="logo"/>
+            <div className={s.logo}>
+                <img  src={logo} alt="" className={s.logo_img}/>
+            </div>
+
         </div>);
 }
 
