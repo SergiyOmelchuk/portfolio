@@ -1,0 +1,38 @@
+.filter {
+    color: #6b7072;
+    /*text-align: right;*/
+    margin-bottom: 50px;
+    padding-right: 1.25vw;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 100;
+    padding-bottom: 5px;
+    color: #1ab5b3;
+}
+
+.items_inner div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: #6b7072;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+a.active {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}

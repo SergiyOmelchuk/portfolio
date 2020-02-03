@@ -1,0 +1,25 @@
+.home {
+    width: 85vw;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.home__item {
+    margin: 0;
+    height: 311px;
+    overflow: hidden;
+}
+.home__item img {
+    width: 28.33vw;
+    opacity: .5;
+}
+.home__item img:hover {
+    opacity: 1;
+    cursor: pointer;
+    animation: loader-2 10s linear;
+}
+@keyframes loader-2 {
+    0% {transform:translateY(0)}
+    /*50%{transform:translateY(-50%)}*/
+    100%{transform:translateY(-100% + 20%)}}

@@ -1,0 +1,37 @@
+.navbar {
+    color: #fff;
+    text-align: right;
+
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    background-image: linear-gradient(#323a3e 67%, #2f373b 33%);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .96vmax;
+    line-height: 1.7vmax;
+    height: 3.22vmax;
+    padding: .76vmax 1.25vw .76vmax 0;
+    font-weight: 300;
+    width: 100%;
+}
+
+.navbar a.active,
+.navbar a:hover {
+    background: linear-gradient(to top, #169291, #31bdbb);
+    /*background-color: #fff;*/
+    transition: all 500ms linear;
+}
+div [data-sergiy=my] {
+    position: relative;
+}
+div [data-sergiy=my]:hover::after {
+    content: attr(data-sergiy);
+    left: 0;
+    color: black;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    border: 1px solid palevioletred;
+}

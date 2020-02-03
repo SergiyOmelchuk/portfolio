@@ -1,0 +1,7 @@
+.vertical {
+    display: flex;
+    flex-direction: column;
+}
+.vertical button {
+    margin: 0 300px;
+}

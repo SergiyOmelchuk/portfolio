@@ -1,0 +1,6 @@
+.fas.func {
+    cursor: pointer;
+}
+.fas.disabled {
+    cursor: grabbing;
+}
